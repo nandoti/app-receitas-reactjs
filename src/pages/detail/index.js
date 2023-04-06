@@ -1,10 +1,10 @@
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet, SafeAreaView } from 'react-native'
 
 export function Detail() {
     return (
-        <View>
+        <SafeAreaView >
             <Text style={styles.container}>Página Detalhes da receita</Text>
-        </View>
+        </SafeAreaView >
     )
 }
 
